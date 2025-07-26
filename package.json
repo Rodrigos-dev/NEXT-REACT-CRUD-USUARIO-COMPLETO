@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "next build && echo.> ./out/.nojekyll && gh-pages -d out",
+    "deploy2": "npm run build && npm run export && touch ./out/.nojekyll"
   },
   "dependencies": {
     "firebase": "^8.8.0",
