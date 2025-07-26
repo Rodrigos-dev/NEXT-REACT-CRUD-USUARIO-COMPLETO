@@ -1,40 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vercel deploy
 
-## Getting Started
+# NEXT CRUD com Firebase 🔥
 
-First, run the development server:
+Este é um projeto **CRUD completo** desenvolvido com **Next.js**, **React**, **Firebase Firestore** e **TailwindCSS**. Ele permite criar, listar, editar e excluir usuários em tempo real usando o banco de dados em nuvem do Firebase.
 
-```bash
+---
+
+## 🚀 Acesse o projeto
+
+🔗 [https://next-react-crud-usuario-compl-git-877113-rodrigos-devs-projects.vercel.app](https://next-react-crud-usuario-compl-git-877113-rodrigos-devs-projects.vercel.app)
+
+---
+
+## 📌 Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Firebase (Firestore v8)](https://firebase.google.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/) para deploy automático
+
+---
+
+## ⚙️ Funcionalidades
+
+- ✅ Criar usuários com nome e idade
+- ✅ Listar usuários cadastrados
+- ✅ Editar dados do usuário
+- ✅ Excluir usuários
+- 🔄 Integração em tempo real com Firestore
+- 🎨 Interface responsiva com TailwindCSS
+
+
+## Deploy
+Este projeto é automaticamente deployado no Vercel a cada git push para a branch principal.
+
+
+## intalação
+
+npm install
+
+configurar o projeto no firebase e adicionar no .env.localna raiz do projeto
+
+NEXT_PUBLIC_FIREBASE_API_KEY=SUACHAVE
+NEXT_PUBLIC_FIREBASE_AUTHDOMAIN=seuapp.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=seuapp-id
+
+
+## Executar
+
+Para desenvolvimento:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para build de produção:
+npm run build
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Screenshots
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<h3 align="center">📸 Screenshots</h3>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/207e8f3f-d392-402e-96c1-4a63a83019d5" width="100"/></td>
+    <td><img src="https://github.com/user-attachments/assets/793fbdcc-9e68-4fb9-ad43-425991411ee5" width="100"/></td> 
+  </tr> 
+</table>
