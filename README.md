@@ -43,7 +43,9 @@ npm install
 configurar o projeto no firebase e adicionar no .env.localna raiz do projeto
 
 NEXT_PUBLIC_FIREBASE_API_KEY=SUACHAVE
+
 NEXT_PUBLIC_FIREBASE_AUTHDOMAIN=seuapp.firebaseapp.com
+
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=seuapp-id
 
 
