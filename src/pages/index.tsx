@@ -67,7 +67,7 @@ export default function Home() {
     bg-gradient-to-r from-blue-500 to-purple-500 
     text-white`
     }>
-      <Layout titulo="Cadastro Simples.">
+      <Layout titulo="Cadastro Simples">
         {visivel === 'tabela' ? (
           <>
 
