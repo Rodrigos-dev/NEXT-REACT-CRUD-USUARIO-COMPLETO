@@ -16,19 +16,19 @@ const config: Config = {
     },
   },
   plugins: [],
-  purge: {
-    content: [
-      "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-      "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    ],
-    options: {
-      safelist: [        
-        /^bg-/,
-        /^to-/,
-        /^from-/        
-      ],
-    },
-  },
+  // purge: {
+  //   content: [
+  //     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+  //     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+  //     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  //   ],
+  //   options: {
+  //     safelist: [        
+  //       /^bg-/,
+  //       /^to-/,
+  //       /^from-/        
+  //     ],
+  //   },
+  // },
 };
 export default config;
