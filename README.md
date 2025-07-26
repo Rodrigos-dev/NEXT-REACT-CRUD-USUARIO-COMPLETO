@@ -61,7 +61,7 @@ npm run build
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/207e8f3f-d392-402e-96c1-4a63a83019d5" width="100"/></td>
-    <td><img src="https://github.com/user-attachments/assets/793fbdcc-9e68-4fb9-ad43-425991411ee5" width="100"/></td> 
+    <td><img src="https://github.com/user-attachments/assets/207e8f3f-d392-402e-96c1-4a63a83019d5" width="200" height="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/793fbdcc-9e68-4fb9-ad43-425991411ee5" width="200" height="200"/></td> 
   </tr> 
 </table>
